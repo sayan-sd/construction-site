@@ -62,7 +62,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="./contact.html" class="nav-link active-link">
+                        <a href="./contact.html" class="nav-link">
                             <i class='bx bx-phone'></i>
                             <span>Contact</span>
                         </a>
@@ -79,17 +79,17 @@
 
     <!-- ================ MAIN SECTION ================= -->
     <main class="main">
-        <!-- =================== CONTACT SECTION =============== -->
-        <section class="contact section" id="contact">
+        <!-- =================== FEEDBACK SECTION =============== -->
+        <section class="contact section" id="feedback">
             <div class="contact-container container grid">
                 <div class="contact-content">
                     <div class="contact-data">
-                        <span class="section-subtitle">Contact Us</span>
+                        <span class="section-subtitle">Customer Feedback</span>
                         <h2 class="section-title">
-                            Easy to Contact Us <span>.</span>
+                            Tell Us Your Experience <span>.</span>
                         </h2>
                         <p class="contact-description">
-                            Get in touch with AT Design Solutions for inquiries, support, or to discuss your project needs. We're here to help and collaborate.
+                            We value your feedback to improve our services. Please take a moment to share your thoughts and experiences with At Designs. Your input is greatly appreciated.
                         </p>
                     </div>
 
@@ -195,6 +195,12 @@
                             <label>Phone</label>
                             <i class='icon bx bxs-phone' ></i>
                         </div>
+
+                        <div class="input-wrap">
+                            <input type="text" class="contact-input" autocomplete="off" name="Feedback" required>
+                            <label>Service</label>
+                            <i class='icon bx bxs-briefcase-alt' ></i>
+                        </div>
     
                         <div class="input-wrap textarea">
                             <textarea name="Message" class="contact-input" autocomplete="off" required></textarea>
@@ -204,7 +210,7 @@
 
 
                         <div class="contact-buttons">
-                            <input type="submit" value="Send Message" class="button btn-submit">
+                            <input type="submit" value="Submit Feedback" class="button btn-submit">
                         </div>
                     </form>
                 </div>
@@ -212,10 +218,10 @@
         </section>
 
 
-        <!-- ================ ORIGINAL CONTACT US FORM ================= -->
-        <!-- <form class="container border rounded shadow p-5 my-4" action="contactUs.php" method="post">
-            <h2 class="d-inline-block border-bottom border-warning text-title">Contact Us</h2>
-           <br> <?php echo $feedbackMessage; ?>
+        <!-- ================ ORIGINAL FEEDBACK FORM ================= -->
+        <!-- <form class="container border rounded shadow p-5 my-4" action="feedback.php" method="post">
+            <h2 class="d-inline-block border-bottom border-warning text-title">Feedback</h2>
+            <br><?php echo "$feedbackMessage";?>
             <hr>
             <div class="mb-3 mt-4">
                 <label for="name" class="form-label">Name</label>
@@ -242,12 +248,13 @@
                 <small id="serviceHelper" class="form-text text-muted"></small>
             </div>
             <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" name="message" id="message" rows="4" placeholder="Message" required></textarea>
+                <label for="message" class="form-label">Feedback</label>
+                <textarea class="form-control" name="message" id="message" rows="4" placeholder="Give Your Feedback" required></textarea>
             </div>
             <hr>
             <button class="btn btn-primary text-white bg-theam" type="submit" name="submit">Submit</button>
         </form> -->
+        
     </main>
     <!-- ================ END OF MAIN SECTION ================= -->
 
@@ -316,7 +323,7 @@
 
                     <ul class="footer-links">
                         <li>
-                            <a href="#" class="footer-link">Contact Us</a>
+                            <a href="./contact.html" class="footer-link">Contact Us</a>
                         </li>
 
                         <li>
@@ -324,7 +331,7 @@
                         </li>
 
                         <li>
-                            <a href="./feedback.html" class="footer-link">Feedback</a>
+                            <a href="#" class="footer-link">Feedback</a>
                         </li>
                     </ul>
                 </div>

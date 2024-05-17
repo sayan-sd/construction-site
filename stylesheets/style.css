@@ -271,6 +271,10 @@ body.dark-theme{
         font-size: 1.25rem;
     }
 
+    .nav-item:nth-child(3) .nav-link i{
+        font-size: 1.45rem;
+    }
+
     .nav-link span{
         display: none;
     }
@@ -398,6 +402,12 @@ body.dark-theme{
 /*=============== POPULAR ===============*/
 .popular-container{
     padding: 0.5rem 0 4rem;
+}
+
+@media screen and (max-width:1024px) {
+    #signage{
+        margin-top: 1rem;
+    } 
 }
 
 .popular-card{
@@ -837,6 +847,28 @@ body.dark-theme{
     font-weight: var(--font-medium);
 }
 
+.footer-description{
+    margin-bottom: 1rem;
+    color: var(--title-color);
+}
+
+.footer-description-contact a,
+.footer-description a{
+    color: var(--title-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.footer-description-contact a:hover,
+.footer-description a:hover{
+    color: var(--title-color);
+    text-decoration: underline;
+}
+
+.footer-description.love i{
+    color: #f75842;
+}
+
 .footer-content,
 .footer-links{
     display: grid;
@@ -858,12 +890,12 @@ body.dark-theme{
 }
 
 .footer-link{
-    color: var(--text-color);
+    color: var(--title-color);
     transition: var(--transition);
 }
 
 .footer-link:hover{
-    color: var(--title-color);
+    color: var(--first-color);
 }
 
 .footer-social{
@@ -881,7 +913,7 @@ body.dark-theme{
 }
 
 .footer-social-link a i:hover{
-    color: var(--title-color);
+    color: var(--first-color);
 }
 
 .footer-info,
@@ -890,7 +922,7 @@ body.dark-theme{
 }
 
 .footer-info{
-    padding-bottom: 6rem;
+    padding-bottom: 7rem;
     margin-top: 5.5rem;
     flex-direction: column;
     text-align: center;
@@ -902,6 +934,27 @@ body.dark-theme{
     font-size: var(--smaller-font-size);
     font-weight: var(--font-medium);
     color: var(--text-color);
+}
+
+.footer-madeby{
+    color: var(--text-color);
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+}
+
+.footer-madeby a{
+    color: var(--text-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.footer-madeby a:hover{
+    color: var(--title-color);
+    text-decoration: underline;
+}
+
+.footer-madeby.love i{
+    color: #f75842;
 }
 
 .footer-privacy{

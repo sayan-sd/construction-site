@@ -53,6 +53,12 @@ const toggleItem = (item) => {
 }
 
 
+// =================== FOOTER YEAR ====================
+const currentYear = new Date().getFullYear();
+const year = document.getElementById('current-year');
+year.innerText = currentYear;
+
+
 // ================= SHOW SCROLL UP =================
 function scrollUp() {
     const scrollUp = document.getElementById('scroll-up');

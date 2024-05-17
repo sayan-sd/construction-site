@@ -60,6 +60,11 @@ inputs.forEach(ipt => {
 })
 
 
+// =================== FOOTER YEAR ====================
+const currentYear = new Date().getFullYear();
+const year = document.getElementById('current-year');
+year.innerText = currentYear;
+
 
 // =================== COOKIE =================
 const cookieBox = document.querySelector('.cookie-wrapper');
